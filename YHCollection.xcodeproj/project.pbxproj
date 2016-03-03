@@ -15,6 +15,8 @@
 		2C3E6BD21C87DFAB00EEF35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C3E6BD01C87DFAB00EEF35E /* LaunchScreen.storyboard */; };
 		2C3E6BDD1C87DFAB00EEF35E /* YHCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E6BDC1C87DFAB00EEF35E /* YHCollectionTests.m */; };
 		2C3E6BE81C87DFAB00EEF35E /* YHCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E6BE71C87DFAB00EEF35E /* YHCollectionUITests.m */; };
+		2C3E6C0C1C87E22500EEF35E /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E6C0B1C87E22500EEF35E /* CollectionViewCell.m */; };
+		2C3E6C0F1C87E70100EEF35E /* YHCirculation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C3E6C0E1C87E70100EEF35E /* YHCirculation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2C3E6BE31C87DFAB00EEF35E /* YHCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C3E6BE71C87DFAB00EEF35E /* YHCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCollectionUITests.m; sourceTree = "<group>"; };
 		2C3E6BE91C87DFAB00EEF35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C3E6C0A1C87E22500EEF35E /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		2C3E6C0B1C87E22500EEF35E /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		2C3E6C0D1C87E70100EEF35E /* YHCirculation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHCirculation.h; sourceTree = "<group>"; };
+		2C3E6C0E1C87E70100EEF35E /* YHCirculation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHCirculation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2C3E6BC61C87DFAA00EEF35E /* AppDelegate.m */,
 				2C3E6BC81C87DFAA00EEF35E /* ViewController.h */,
 				2C3E6BC91C87DFAA00EEF35E /* ViewController.m */,
+				2C3E6C0A1C87E22500EEF35E /* CollectionViewCell.h */,
+				2C3E6C0B1C87E22500EEF35E /* CollectionViewCell.m */,
+				2C3E6C0D1C87E70100EEF35E /* YHCirculation.h */,
+				2C3E6C0E1C87E70100EEF35E /* YHCirculation.m */,
 				2C3E6BCB1C87DFAA00EEF35E /* Main.storyboard */,
 				2C3E6BCE1C87DFAB00EEF35E /* Assets.xcassets */,
 				2C3E6BD01C87DFAB00EEF35E /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				2C3E6BCA1C87DFAA00EEF35E /* ViewController.m in Sources */,
 				2C3E6BC71C87DFAA00EEF35E /* AppDelegate.m in Sources */,
+				2C3E6C0F1C87E70100EEF35E /* YHCirculation.m in Sources */,
+				2C3E6C0C1C87E22500EEF35E /* CollectionViewCell.m in Sources */,
 				2C3E6BC41C87DFAA00EEF35E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

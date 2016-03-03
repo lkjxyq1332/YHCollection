@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ViewController;
+@protocol cycleDelegate <NSObject>
+- (void)cycleScrollView:(ViewController *)cycleScrollView didSelectItemAtIndex:(NSInteger)index;
 
+@end
 @interface ViewController : UIViewController
 
-
+@property (nonatomic, weak)id<cycleDelegate> delegate;
 @end
 
